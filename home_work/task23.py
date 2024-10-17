@@ -14,7 +14,6 @@
 
 text: str
 alphabet = 'абвгдежзийклмнопрстуфхцчшщъыьэюя'
-length = len(alphabet) - 1
 
 with open('message.txt', 'r') as file:
     text = file.readlines()
